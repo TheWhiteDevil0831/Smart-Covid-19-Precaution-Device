@@ -26,7 +26,7 @@ The Covid-19 is very dangerous and viral infection so we need to take precaution
     3) Twilio Website (account created and setup)
     4) Whatsapp messenger
     
- # Process Flow
+ # Process Flow:
    
     The “ PROCESS FLOW “ of the project is given above ,and its illustrate in steps, the steps are as follows
     STEP1 : when any person pass infront of the  ultra-sonic sensor
@@ -36,3 +36,15 @@ The Covid-19 is very dangerous and viral infection so we need to take precaution
     STEP4 : If that person`s temperature is not normal Then owner gets next alert message as 
     “ALERT!!!!!!!!  The person`s body temperature is not normal He has Fever 
     TEMPERATURE = xx.xx`F “.
+ # Data Flow:
+  
+    The “ DATA FLOW “ of the project is given above ,and its illustrate in steps, the steps are as follows.
+    STEP 1)  The Ultrasonic sensor acts as first input to the arduino which then processes the input 
+    according to the arduino code and gives output to port.
+    STEP 2)  The temperature sensor all takes temperature interms of input and according to the the 
+    arduino code output is given to port. 
+    STEP 3)  The python code gets the ouput of each sensor and gives the  result to the ACCOUNT SID 
+    and AUTH TOKEN i.e  Twilio account by API METHOD
+    STEP 4)  Then From the Twilio website /account output is send to the  Whatsapp Number added in that Account.
+    STEP 5)  According to the Whatsapp message we can take precautions .
+
