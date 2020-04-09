@@ -25,6 +25,11 @@ The Covid-19 is very dangerous and viral infection so we need to take precaution
     1) Arduino IDE  ( to run / dump Arduino code )
     2) Anaconda Spyder  or  any other python Compiler  ( to run     python code )
     3) Twilio Website (account created and setup)
+           Install Twilio in your Python IDE
+              •	pip install twilio    
+	      for futher any errors use this website :
+	      https://www.twilio.com/docs/libraries/python
+
     4) Whatsapp messenger
 
  # Process Flow:
